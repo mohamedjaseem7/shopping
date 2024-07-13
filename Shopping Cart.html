@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+
+     <!-- Css Styles -->
+   
+   
+    
+     <link rel="stylesheet" href="css/Shopping Cart.css" type="text/css">
+</head>
+<body>
+    
+          <!--  navigation -->
+          <nav id="navigation">
+            <div class="logo"><span class="colorlogo">J</span>AAZ<span  class="colorlogo">.</span></div>
+            <label for="btn" class="icon">  <span class="glyphicon glyphicon-menu-hamburger"></span></label>
+          <input type="checkbox" id="btn" class="checkbox">
+            <ul>
+                <li ><a href="index.html"> HOME</a></li>
+                <li><a href="Products.html"> PRODUCTS </a></li>
+                <li>
+                    <label for="btn1" class="show">COLLECTION</label>
+                    <a href="Collection.html" >COLLECTION </a>
+                    <input type="checkbox" id="btn1">
+               <ul>
+                   <li><a href="Collection.html">Men's</a></li>
+                   <li><a href="Women’s.html">Women's</a></li>
+                   <li><a href="kids.html">Kid's</a></li>
+               </ul>
+               </li>
+                <li><a href="blog.html" >BLOG</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+                <li>
+                  <label for="btn2" class="show PAGES">PAGES</label>
+                    <a href="Shopping Cart.html" class="PAGES">PAGES</a>
+                    <input type="checkbox" id="btn2">
+                   <ul>
+                       <li><a href="Shopping Cart.html" class="ShoppingCart">Shopping Cart</a></li>
+                       <li><a href="checkout.html" >Checkout</a></li>
+                       <li><a href="login.html">Login</a></li>
+                   </ul></li>
+                   <a href="#" class="carts">
+                    <i  class="glyphicon glyphicon-shopping-cart" aria-hidden="true"> <span>10</span></i>
+                </a>
+            </ul>
+            <div class="right-elements">
+              <form class="search" action="">
+                  <input type="text" placeholder="search" class="searchinput">
+                  <button type="button" class="searchbutton">   <i  class="glyphicon glyphicon-search" aria-hidden="true"></i></button>
+              </form>
+              
+           </div>
+          </nav>
+      <!-- ============ navigation end============= -->
+
+  <!-- Shopping Cart Section Begin -->
+  <section class="shopping-cart spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="cart-table">
+        <div class="table-responsive">
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="cart-pic-img">Image</th>
+                                <th class="p-name">Product Name</th>
+                                <th>Price</th>
+                                <th>Quantity</th>
+                                <th>Total</th>
+                                <th><i class="	glyphicon glyphicon-remove"></i></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="cart-pic first-row"><img src="imgs/products/product-1.jpg" width="170px"></td>
+                                <td class="cart-title first-row">
+                                    <h5>Pure Pineapple</h5>
+                                </td>
+                                <td class="p-price first-row">RS:240.00</td>
+                                <td class="qua-col first-row">
+                                    <div class="quantity">
+                                        <div class="pro-qty">
+                                            <input type="number" min="0" max="100" value="1">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="total-price first-row">RS:240.00</td>
+                                <td class="close-td first-row"><i class="	glyphicon glyphicon-remove"></i></td>
+                            </tr>
+                            <tr>
+                                <td class="cart-pic"><img src="imgs/products/product-2.jpg" alt=""  width="170px"></td>
+                                <td class="cart-title">
+                                    <h5>American lobster</h5>
+                                </td>
+                                <td class="p-price">RS:333.00</td>
+                                <td class="qua-col">
+                                    <div class="quantity">
+                                        <div class="pro-qty">
+                                            <input type="number" min="0" max="100" value="1">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="total-price">RS:333.00</td>
+                                <td class="close-td"><i class="	glyphicon glyphicon-remove"></i></td>
+                            </tr>
+                            <tr>
+                                <td class="cart-pic"><img src="imgs/products/product-3.jpg" alt=""  width="170px"> </td>
+                                <td class="cart-title">
+                                    <h5>Guangzhou sweater</h5>
+                                </td>
+                                <td class="p-price">RS:340.00</td>
+                                <td class="qua-col">
+                                    <div class="quantity">
+                                        <div class="pro-qty">
+                                            <input type="number" min="0" max="100" value="1">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="total-price">RS:340.00</td>
+                                <td class="close-td"><i class="	glyphicon glyphicon-remove"></i></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+                <div class="row ">
+                    <div class="col-lg-4  ">
+                        <div class="cart-buttons">
+                            <a href="products.html" class="primary-btn continue-shop">Continue shopping</a>
+                            <a href="#" class="primary-btn up-cart">Update cart</a>
+                        </div>
+                        <div class="discount-coupon">
+                            <h6>Discount Codes</h6>
+                            <form action="#" class="coupon-form">
+                                <input type="text" placeholder="Enter your codes">
+                                <button type="submit" class="site-btn coupon-btn">Apply</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="  col-lg-4  checkout">
+                        <div class="proceed-checkout">
+                            <ul id="checkout">
+                                <li class="subtotal">Subtotal <span>RS:913.00</span></li>
+                                <li class="cart-total">Total <span>RS:913.00</span></li>
+                            </ul>
+                            <a href="#" class="proceed-btn">PROCEED TO CHECK OUT</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+            <!-- Partner Logo Section Begin -->
+            <div id="partner-logo">
+                <div class="container">
+                    <div class="logo-carousel owl-carousel">
+                        <div class="logo-item">
+                            <div class="tablecell-inner">
+                                <img src="imgs/logo-carousel/logo-1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="logo-item">
+                            <div class="tablecell-inner">
+                                <img src="imgs/logo-carousel/logo-2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="logo-item">
+                            <div class="tablecell-inner">
+                                <img src="imgs/logo-carousel/logo-3.png" alt="">
+                            </div>
+                        </div>
+                        <div class="logo-item visible">
+                            <div class="tablecell-inner">
+                                <img src="imgs/logo-carousel/logo-4.png" alt="">
+                            </div>
+                        </div>
+                        <div class="logo-item visible">
+                            <div class="tablecell-inner">
+                                <img src="imgs/logo-carousel/logo-5.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Partner Logo Section End -->
+            
+            
+            
+            
+                      <!-- Footer Section Begin -->
+            <footer id="footer-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-12">
+                            <div id="footer-left">
+                                <div id="footer-logo">
+                                    <div class="logo"><span class="colorlogo">J</span>AAZ<span  class="colorlogo">.</span></div>
+                                </div>
+                                <ul id="footer-ul">
+                                    <li>ADDRESS:Door no 277/86, TJP Complex, GST road, Kadapesri, Tambaram Tambaram Sanatorium 600045</li>
+                                    <li>Phone:+91-82708 53849</li>
+                                    <li>Email: mohamedjaseem774@gmail.com</li>
+                                </ul>
+                                <div id="footer-social">
+                                    <a class="first" href="#"><img src="img/facebook (1).png" alt=""></a>
+                                    <a href="#"><img src="img/instagram.png" alt=""></a>
+                                    <a href="#"><img src="img/twitter.png" alt=""></a>
+                                    <a href="#"><img src="img/pinterest (1).png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 offset-lg-1 col-12">
+                            <div id="footer-widget">
+                                <h5>Information</h5>
+                                <ul id="footer-ul">
+                                    <li><a href="blog.html">About Us</a></li>
+                                    <li><a href="checkout.html">Checkout</a></li>
+                                    <li><a href="Contact.html">Contact</a></li>
+                                    <li><a href="#">Services</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-12">
+                            <div id="footer-widget">
+                                <h5>My Account</h5>
+                                <ul id="footer-ul">
+                                    <li><a href="#">My Account</a></li>
+                                    <li><a href="Contact.html">Contact</a></li>
+                                    <li><a href="Shopping Cart.html">Shopping Cart</a></li>
+                                    <li><a href="products.html">Products</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-12">
+                            <div id="newslatter-item">
+                                <h5>Join Our Newsletter Now</h5>
+                                <p>Get E-mail updates about our latest shop and special offers.</p>
+                                <form action="#" id="subscribe-form">
+                                    <input type="text" placeholder="Enter Your Mail">
+                                    <button type="button">Subscribe</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="copyright-reserved">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 col-12">
+                                <div id="copyright-text">
+                                    
+             &copy;2023,JAAZ Online Shopping Pvt Ltd |All Rights Reserved...<a href="#" >JAAZ &hearts;</a>
+            
+                                </div>
+                                <div id="payment-pic">
+                                    <img src="img/payment-method.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+          
+            
+            <script src="js/jquery.min.js"></script>
+                 <script src="js/bootstrap.min.js"></script>
+            </body>
+            </html>

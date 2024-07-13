@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+
+     <!-- Css Styles -->
+   
+   
+    
+     <link rel="stylesheet" href="css/login.css" type="text/css">
+</head>
+<body>
+    
+          <!--  navigation -->
+          <nav id="navigation">
+            <div class="logo"><span class="colorlogo">J</span>AAZ<span  class="colorlogo">.</span></div>
+            <label for="btn" class="icon">  <span class="glyphicon glyphicon-menu-hamburger"></span></label>
+          <input type="checkbox" id="btn" class="checkbox">
+            <ul>
+                <li ><a href="index.html"> HOME</a></li>
+                <li><a href="Products.html"> PRODUCTS </a></li>
+                <li>
+                    <label for="btn1" class="show">COLLECTION</label>
+                    <a href="Collection.html" >COLLECTION </a>
+                    <input type="checkbox" id="btn1">
+               <ul>
+                   <li><a href="Collection.html">Men's</a></li>
+                   <li><a href="Women’s.html">Women's</a></li>
+                   <li><a href="kids.html">Kid's</a></li>
+               </ul>
+               </li>
+                <li><a href="blog.html" >BLOG</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+                <li>
+                  <label for="btn2" class="show PAGES">PAGES</label>
+                    <a href="Shopping Cart.html" class="PAGES" >PAGES</a>
+                    <input type="checkbox" id="btn2">
+                   <ul>
+                       <li><a href="Shopping Cart.html">Shopping Cart</a></li>
+                       <li><a href="checkout.html" >Checkout</a></li>
+                       <li><a href="login.html" class="login">Login</a></li>
+                   </ul></li>
+                   <a href="#" class="carts">
+                    <i  class="glyphicon glyphicon-shopping-cart" aria-hidden="true"> <span>10</span></i>
+                </a>
+            </ul>
+            <div class="right-elements">
+              <form class="search" action="">
+                  <input type="text" placeholder="search" class="searchinput">
+                  <button type="button" class="searchbutton">   <i  class="glyphicon glyphicon-search" aria-hidden="true"></i></button>
+              </form>
+              
+           </div>
+          </nav>
+         
+          <!-- ============ navigation end============= -->
+
+
+
+          <div class="container-fluid " id="account-page">
+            <div class="row">
+                <div class="col-lg-6 col-12" id="userimg">
+                    <img id="online" src="https://watermark.lovepik.com/photo/20211125/large/lovepik-happy-family-three-shopping-picture_501056902.jpg" width="1000" >
+                </div>
+                <div class="col-lg-5 col-12 ">
+                  <div id="form-container">
+                      <div id="form-btn">
+                          <span onclick="login()">Login</span>
+                          <span onclick="register()">Register</span>
+                          <hr id="Indicator">
+
+                      </div>
+                      <form id="Loginform" action="">
+                          <input type="text" placeholder="Username">
+                          <input type="password" placeholder="password">
+                          <button type="submit" class="btn btn-warning">Login</button>
+                          <a href="">Forgot password</a>
+                      </form>
+
+                      <form id="Regform" action="">
+                          <input type="text" placeholder="Username">
+                          <input type="email" placeholder="email">
+                          <input type="password" placeholder="password">
+                          <button type="submit" class="btn btn-warning">Register</button>
+                      </form>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+
+
+   <!-- Partner Logo Section Begin -->
+   <div id="partner-logo">
+    <div class="container">
+        <div class="logo-carousel owl-carousel">
+            <div class="logo-item">
+                <div class="tablecell-inner">
+                    <img src="imgs/logo-carousel/logo-1.png" alt="">
+                </div>
+            </div>
+            <div class="logo-item">
+                <div class="tablecell-inner">
+                    <img src="imgs/logo-carousel/logo-2.png" alt="">
+                </div>
+            </div>
+            <div class="logo-item">
+                <div class="tablecell-inner">
+                    <img src="imgs/logo-carousel/logo-3.png" alt="">
+                </div>
+            </div>
+            <div class="logo-item visible">
+                <div class="tablecell-inner">
+                    <img src="imgs/logo-carousel/logo-4.png" alt="">
+                </div>
+            </div>
+            <div class="logo-item visible">
+                <div class="tablecell-inner">
+                    <img src="imgs/logo-carousel/logo-5.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Partner Logo Section End -->
+
+
+
+
+          <!-- Footer Section Begin -->
+<footer id="footer-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-12">
+                <div id="footer-left">
+                    <div id="footer-logo">
+                        <div class="logo"><span class="colorlogo">J</span>AAZ<span  class="colorlogo">.</span></div>
+                    </div>
+                    <ul id="footer-ul">
+                        <li>ADDRESS: Door no 277/86, TJP Complex, GST road, Kadapesri, Tambaram Tambaram Sanatorium 600045</li>
+                        <li>Phone:+91-82708 53849 </li>
+                        <li>Email:  mohamedjaseem774@gmail.com</li>
+                    </ul>
+                    <div id="footer-social">
+                        <a class="first" href="#"><img src="img/facebook (1).png" alt=""></a>
+                        <a href="#"><img src="img/instagram.png" alt=""></a>
+                        <a href="#"><img src="img/twitter.png" alt=""></a>
+                        <a href="#"><img src="img/pinterest (1).png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 offset-lg-1 col-12">
+                <div id="footer-widget">
+                    <h5>Information</h5>
+                    <ul id="footer-ul">
+                        <li><a href="blog.html">About Us</a></li>
+                        <li><a href="checkout.html">Checkout</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
+                        <li><a href="#">Services</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2 col-12">
+                <div id="footer-widget">
+                    <h5>My Account</h5>
+                    <ul id="footer-ul">
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
+                        <li><a href="Shopping Cart.html">Shopping Cart</a></li>
+                        <li><a href="products.html">Products</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4 col-12">
+                <div id="newslatter-item">
+                    <h5>Join Our Newsletter Now</h5>
+                    <p>Get E-mail updates about our latest shop and special offers.</p>
+                    <form action="#" id="subscribe-form">
+                        <input type="text" placeholder="Enter Your Mail">
+                        <button type="button">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="copyright-reserved">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-12">
+                    <div id="copyright-text">
+                        
+ &copy;2023,JAAZ Online Shopping Pvt Ltd |All Rights Reserved...<a href="#" >JAAZ &hearts;</a>
+
+                    </div>
+                    <div id="payment-pic">
+                        <img src="img/payment-method.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+          <script>
+            var Loginform = document.getElementById("Loginform");
+            var Regform = document.getElementById("Regform");
+            var Indicator = document.getElementById("Indicator");
+        
+            function register(){
+                Regform.style.transform = "translateX(0px)";
+                Loginform.style.transform = "translateX(0px)";
+                Indicator.style.transform = "translateX(100px)";
+        
+            }
+        
+            function login(){
+                Regform.style.transform = "translateX(300px)";
+                Loginform.style.transform = "translateX(300px)";
+                Indicator.style.transform = "translateX(0px)";
+        
+            }
+            
+        </script>
+
+           
+     <script src="js/jquery.min.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
